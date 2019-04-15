@@ -12,8 +12,14 @@ class ItemStore {
     var allItems = [Item]()
     
     init() {
-        for _ in 0..<15 {
-            createItem()
+//        for _ in 0..<15 {
+//            createItem()
+//        }
+    }
+    
+    func removeItem(_ item: Item) {
+        if let index = allItems.firstIndex(of: item) {
+            allItems.remove(at: index)
         }
     }
     
