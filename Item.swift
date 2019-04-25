@@ -13,6 +13,7 @@ class Item: NSObject {
     var valueInDollars: Int
     var serialNumber: String?
     let dateCreated: Date
+    let itemKey: String
     
     convenience init(random: Bool = false) {
         if random {
@@ -40,6 +41,7 @@ class Item: NSObject {
         self.valueInDollars = valueInDollars
         self.serialNumber = serialNumber
         self.dateCreated = Date()
+        self.itemKey = UUID().uuidString
         
         super.init()
     }

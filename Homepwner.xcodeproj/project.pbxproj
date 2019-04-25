@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A38ADB112271FE2C00EBFF35 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38ADB102271FE2C00EBFF35 /* ImageStore.swift */; };
 		A3AF294C2262F2CF0054B588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AF294B2262F2CF0054B588 /* AppDelegate.swift */; };
 		A3AF29512262F2CF0054B588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AF294F2262F2CF0054B588 /* Main.storyboard */; };
 		A3AF29532262F2D00054B588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AF29522262F2D00054B588 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A38ADB102271FE2C00EBFF35 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		A3AF29482262F2CF0054B588 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AF294B2262F2CF0054B588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3AF29502262F2CF0054B588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		A3AF293F2262F2CF0054B588 = {
 			isa = PBXGroup;
 			children = (
+				A38ADB102271FE2C00EBFF35 /* ImageStore.swift */,
 				A3F6DC82226CC3570018FAC6 /* DetailViewController.swift */,
 				A3F6DC80226AE4000018FAC6 /* ItemCell.swift */,
 				A3AF297B226310280054B588 /* Item.swift */,
@@ -273,6 +276,7 @@
 				A3AF297E226356550054B588 /* ItemStore.swift in Sources */,
 				A3F6DC83226CC3570018FAC6 /* DetailViewController.swift in Sources */,
 				A3AF294C2262F2CF0054B588 /* AppDelegate.swift in Sources */,
+				A38ADB112271FE2C00EBFF35 /* ImageStore.swift in Sources */,
 				A3F6DC81226AE4000018FAC6 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

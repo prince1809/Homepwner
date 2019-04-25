@@ -18,11 +18,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let itemStore = ItemStore()
         
+        // create an imageStore
+        let imageStore = ImageStore()
+        
         // Access the ItemsViewController and set its item store
 //        let itemsController = window!.rootViewController as! ItemsViewController
         let navController = window!.rootViewController as! UINavigationController
         let itemsController = navController.topViewController as! ItemsViewController
         itemsController.itemStore = itemStore
+        itemsController.imageStore = imageStore
         return true
     }
 
